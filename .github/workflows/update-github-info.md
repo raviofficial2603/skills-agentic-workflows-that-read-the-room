@@ -51,7 +51,7 @@ do not guess or create a pull request; report that the update could not be
 completed. If there are no relevant new items or the page needs no change, call
 `noop` with a brief reason.
 
-When the page changes, use the configured `create-pull-request` safe output to
-open one pull request containing only `site/content/github-info.md`. Summarize
-the changes and cite the source URLs in the PR body, and ask Mona to review it.
-Never write directly to the default branch.
+When the page changes, open a pull request for Mona to review. Use the
+configured `create-pull-request` safe output to include only
+`site/content/github-info.md`. Summarize the changes and cite the source URLs in
+the PR body. Never write directly to the default branch.
